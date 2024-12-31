@@ -1,0 +1,56 @@
+Contribuindo em um Projeto Open Source no GitHub
+Contribuir para projetos open source no GitHub é uma ótima maneira de aprender, colaborar com outros desenvolvedores e melhorar suas habilidades de programação. Aqui está um tutorial prático para começar:
+
+Passo 1: Encontrar um Projeto
+Escolha um projeto que você goste: Procure por projetos que você usa ou que sejam interessantes para você.
+Verifique a documentação: Leia o README, a documentação e as diretrizes de contribuição do projeto.
+
+Passo 2: Fork o Repositório
+Fork o repositório: Clique no botão "Fork" no canto superior direito da página do repositório no GitHub. Isso cria uma cópia do repositório no seu perfil.
+
+Passo 3: Clone o Repositório Forked
+Clone o repositório: No seu terminal, clone o repositório forked para o seu computador.
+
+
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+
+
+Passo 4: Crie uma Branch
+Crie uma nova branch: Crie uma branch para fazer suas alterações.
+
+git checkout -b minha-branch
+
+Passo 5: Faça Suas Alterações
+Faça suas alterações: Edite o código, adicione novas funcionalidades ou corrija bugs.
+Teste suas alterações: Certifique-se de que suas alterações funcionam corretamente.
+
+
+Passo 6: Commit e Push
+Commit suas alterações: Adicione e commit suas alterações.
+
+git add .
+git commit -m "Descrição das minhas alterações"
+
+Push para o GitHub: Envie suas alterações para o seu repositório forked.
+
+
+git push origin minha-branch
+
+
+Passo 7: Abra um Pull Request
+Abra um Pull Request: No GitHub, vá para a página do seu repositório forked e clique no botão "New Pull Request".
+Descreva suas alterações: Explique o que você fez e por que suas alterações são importantes.
+
+Passo 8: Feedback e Revisão
+Aguarde feedback: Os mantenedores do projeto revisarão seu Pull Request e poderão pedir alterações ou melhorias.
+Faça ajustes: Se necessário, faça ajustes com base no feedback recebido.
+
+Passo 9: Merge
+Merge: Se tudo estiver correto, seu Pull Request será mesclado ao repositório principal.
+
+
+
+
+
+

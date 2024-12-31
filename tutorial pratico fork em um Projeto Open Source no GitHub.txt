@@ -1,0 +1,54 @@
+# Tutorial Prático: Fork em um Projeto Open Source no GitHub
+
+## Passo 1: Faça o Fork do Repositório
+1. Acesse o repositório do projeto Open Source no GitHub.
+2. Clique no botão "Fork" no canto superior direito da página.
+
+## Passo 2: Clone o Repositório Forkado
+1. No seu perfil do GitHub, vá até o repositório que você acabou de forkear.
+2. Clique no botão "Code" e copie a URL do repositório.
+3. No seu terminal, execute o comando:
+    ```
+    git clone <URL-do-repositório>
+    ```
+    Substitua `<URL-do-repositório>` pela URL que você copiou.
+
+## Passo 3: Configure o Repositório Remoto
+1. Navegue até o diretório do repositório clonado:
+    ```
+    cd <nome-do-repositório>
+    ```
+2. Adicione o repositório original como um remoto chamado "upstream":
+    ```
+    git remote add upstream <URL-do-repositório-original>
+    ```
+    Substitua `<URL-do-repositório-original>` pela URL do repositório original.
+
+## Passo 4: Sincronize seu Fork com o Repositório Original
+1. Busque as mudanças do repositório original:
+    ```
+    git fetch upstream
+    ```
+2. Mescle as mudanças no seu branch principal:
+    ```
+    git checkout main
+    git merge upstream/main
+    ```
+
+## Passo 5: Faça Suas Alterações e Envie um Pull Request
+1. Crie um novo branch para suas alterações:
+    ```
+    git checkout -b minha-nova-feature
+    ```
+2. Faça suas alterações e commit:
+    ```
+    git add .
+    git commit -m "Descrição das minhas alterações"
+    ```
+3. Envie suas alterações para o GitHub:
+    ```
+    git push origin minha-nova-feature
+    ```
+4. No GitHub, vá até a página do seu repositório forkado e clique em "Compare & pull request".
+5. Preencha os detalhes do pull request e envie.
+
