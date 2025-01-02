@@ -1,0 +1,54 @@
+
+O que é IA Generativa
+
+IA Generativa é um tipo de inteligência artificial que é capaz de gerar novos conteúdos, como texto, imagens, música e outros tipos de dados, a partir de padrões e exemplos fornecidos. Ela utiliza modelos de aprendizado de máquina, como redes neurais, para aprender a estrutura e as características dos dados de entrada e, em seguida, criar novas instâncias que são semelhantes aos dados originais. Exemplos de IA Generativa incluem modelos de linguagem como GPT-3, geradores de imagens como GANs (Generative Adversarial Networks) e muitos outros.
+
+
+
+
+
+
+
+
+
+
+
+Modelos de Linguagem Grande
+
+Modelos de linguagem grande, como o GPT-3, são um tipo de IA Generativa que foi treinada em vastas quantidades de texto para entender e gerar linguagem natural. Esses modelos são capazes de realizar uma variedade de tarefas de processamento de linguagem natural, como tradução, resumo, resposta a perguntas e geração de texto coerente e contextualmente relevante. Eles funcionam aprendendo as probabilidades das sequências de palavras e utilizando esse conhecimento para prever e gerar novas sequências de texto que são gramaticalmente corretas e contextualmente apropriadas.
+
+
+
+Transformador
+
+O transformador é uma arquitetura de rede neural que foi introduzida no artigo "Attention is All You Need" pelos pesquisadores Vaswani et al. em 2017. Ele revolucionou o campo do processamento de linguagem natural ao introduzir o mecanismo de atenção, que permite que o modelo se concentre em diferentes partes da entrada ao gerar a saída. Isso torna os modelos baseados em transformadores altamente eficazes para tarefas de tradução, resumo e outras aplicações de linguagem natural. O GPT-3, por exemplo, é baseado na arquitetura de transformador, o que lhe permite gerar texto de alta qualidade e realizar uma ampla gama de tarefas de linguagem natural.
+
+
+
+Tokenização
+
+Tokenização é o processo de dividir um texto em unidades menores, chamadas tokens, que podem ser palavras, subpalavras ou até caracteres individuais. Em modelos de linguagem grande, a tokenização é um passo crucial, pois permite que o modelo processe e entenda o texto de entrada de maneira mais eficiente. Existem diferentes métodos de tokenização, como a tokenização baseada em espaço, onde cada palavra é um token, e a tokenização subpalavra, como a usada pelo BPE (Byte Pair Encoding) e SentencePiece, que divide palavras em subunidades menores. A escolha do método de tokenização pode afetar significativamente o desempenho do modelo, especialmente em tarefas que envolvem múltiplos idiomas ou vocabulários extensos.
+
+
+
+Inserções em modelos de linguagem grande referem-se à capacidade desses modelos de adicionar ou modificar partes do texto de maneira coerente e contextualmente apropriada. Por exemplo, ao fornecer um texto incompleto ou com lacunas, o modelo pode preencher essas lacunas com palavras ou frases que fazem sentido no contexto dado. Isso é útil em várias aplicações, como edição de texto, autocompletar e geração de conteúdo personalizado. A eficácia das inserções depende da qualidade do treinamento do modelo e da sua capacidade de entender o contexto e a estrutura do texto.
+
+
+Atenção
+
+A atenção é um mecanismo fundamental em modelos de linguagem grande, especialmente aqueles baseados na arquitetura de transformador. Ela permite que o modelo se concentre em diferentes partes do texto de entrada ao gerar a saída, atribuindo pesos diferentes a cada parte com base na sua relevância para a tarefa em questão. Existem diferentes tipos de mecanismos de atenção, como a atenção auto-regressiva e a atenção cruzada, que são usados para diferentes propósitos dentro do modelo. A atenção auto-regressiva, por exemplo, é usada para prever a próxima palavra em uma sequência, enquanto a atenção cruzada é usada para alinhar sequências de entrada e saída em tarefas de tradução. A capacidade de atenção dos modelos de linguagem grande é uma das razões pelas quais eles são tão eficazes em uma ampla gama de tarefas de processamento de linguagem natural.
+
+
+
+Copilotos
+
+Copilotos são assistentes de IA que utilizam modelos de linguagem grande para ajudar os usuários em diversas tarefas, como programação, escrita, pesquisa e muito mais. Eles funcionam entendendo o contexto e as instruções fornecidas pelo usuário e gerando respostas ou sugestões que são relevantes e úteis. Exemplos de copilotos incluem o GitHub Copilot, que auxilia desenvolvedores a escrever código, e assistentes de escrita que ajudam a compor e editar textos. A eficácia dos copilotos depende da qualidade dos modelos de linguagem subjacentes e da capacidade de entender e responder adequadamente às necessidades dos usuários.
+
+
+
+Engenharia de Prompts
+
+A engenharia de prompts é a prática de criar e ajustar entradas (prompts) para modelos de linguagem grande, como o GPT-3, de forma a obter respostas desejadas e úteis. Um prompt bem projetado pode guiar o modelo a gerar saídas mais precisas, coerentes e relevantes para a tarefa em questão. A engenharia de prompts envolve a escolha cuidadosa das palavras, a estruturação do texto e, às vezes, a inclusão de exemplos para orientar o modelo. Esta prática é essencial para maximizar a eficácia dos modelos de linguagem em aplicações práticas, como atendimento ao cliente, geração de conteúdo, programação assistida e muito mais. A habilidade de criar bons prompts é uma competência valiosa para quem trabalha com IA Generativa, pois pode influenciar significativamente a qualidade e a utilidade das respostas geradas pelo modelo.
+
+
+

@@ -1,0 +1,4 @@
+
+O que é IA Generativa
+
+IA Generativa é um tipo de inteligência artificial que é capaz de gerar novos conteúdos, como texto, imagens, música e outros tipos de dados, a partir de padrões e exemplos fornecidos. Ela utiliza modelos de aprendizado de máquina, como redes neurais, para aprender a estrutura e as características dos dados de entrada e, em seguida, criar novas instâncias que são semelhantes aos dados originais. Exemplos de IA Generativa incluem modelos de linguagem como GPT-3, geradores de imagens como GANs (Generative Adversarial Networks) e muitos outros.
